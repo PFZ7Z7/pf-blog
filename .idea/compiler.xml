@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="pf-blog-service" />
+        <module name="pf-blog-common" />
+        <module name="pf-blog-web" />
+        <module name="pf-blog-infra" />
       </profile>
     </annotationProcessing>
   </component>

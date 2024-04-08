@@ -5,14 +5,17 @@
     <groupId>org.pfblog.infra</groupId>
     <artifactId>pf-blog-infra</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>pf-blog-infra</name>
-    <description>pf-blog-infra</description>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-boot.version>2.3.12.RELEASE</spring-boot.version>
     </properties>
+    <parent>
+        <groupId>org.pfblog</groupId>
+        <artifactId>pf-blog-service</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
